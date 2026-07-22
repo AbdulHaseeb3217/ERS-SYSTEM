@@ -1,24 +1,64 @@
 {
-  "name": "ers-admin-portal",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  
+  "name": "thelasthope_backend",
+  
+  "version": "1.0.0",
+  
+  "description": "",
+  
+  "main": "index.js",
+  
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+  
+    
+  "start": "nodemon index.js",
+  
+    
+  "test": "echo \"Error: no test specified\" && exit 1"
+  
   },
+  
+  "keywords": [],
+  
+  "author": "",
+  
+  "license": "ISC",
+  
   "dependencies": {
-    "axios": "^1.13.2",
-    "lucide-react": "^0.562.0",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3",
-    "react-router-dom": "^7.13.0"
+  
+    
+  "bcryptjs": "^3.0.3",
+  
+    
+  "cloudinary": "^2.8.0",
+  
+    
+  "cors": "^2.8.5",
+  
+    
+  "dotenv": "^17.2.3",
+  
+    
+  "express": "^5.1.0",
+  
+    
+  "jsonwebtoken": "^9.0.3",
+  
+    
+  "mongoose": "^8.19.3",
+  
+    
+  "multer": "^2.0.2",
+  
+    
+  "multer-storage-cloudinary": "^2.2.1"
+  
   },
+  
   "devDependencies": {
-    "@types/node": "^22.14.0",
-    "@vitejs/plugin-react": "^5.0.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
+  
+    
+  "nodemon": "^3.1.10"
+  
   }
 }
