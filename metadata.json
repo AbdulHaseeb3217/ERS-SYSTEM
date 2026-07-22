@@ -1,0 +1,8 @@
+{
+  "name": "ERS Admin Portal",
+  "description": "A high-performance admin dashboard for an Emergency Response System featuring patient tracking, driver management, and order monitoring.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
